@@ -12,7 +12,7 @@ public:
             product *= nums[right];
             while (product >= k)
                 product /= nums[left++];
-            count += (right - left)+1;
+            count += (right - left) + 1;
             right++;
         }
         return count;
